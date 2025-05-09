@@ -1,0 +1,9 @@
+[package]
+name = "rollup-core-program"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
+rollup-core = { path = "../rollup-core" }

@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "rollup-cli",
+    "rollup-core",
+    "rollup-core-program",
+    "verify-proof",
+]
+resolver = "2"
+
+[patch.crates-io]
+sp1-sdk = { git = "https://github.com/succinctlabs/sp1.git" }
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }

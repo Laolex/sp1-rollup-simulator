@@ -1,0 +1,12 @@
+{
+  "transactions": [
+    {"from": 1, "to": 2, "amount": 50},
+    {"from": 2, "to": 3, "amount": 20}
+  ],
+  "state": {
+    "balances": {
+      "1": 100,
+      "2": 30
+    }
+  }
+}
